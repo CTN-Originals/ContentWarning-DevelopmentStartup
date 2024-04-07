@@ -1,5 +1,5 @@
 # DevelopmentStartup
-Adds a DevelopmentStartup to the center of your screen to indicate where you are aiming.
+Skip all the useless startup menus and jump right into a game! Tool for developers.
 For suggestions or issues, feel free to open an issue on the [GitHub repository](https://github.com/CTN-Originals/ContentWarning-DevelopmentStartup/issues).
 
 ![Preview](<https://raw.githubusercontent.com/CTN-Originals/ContentWarning-DevelopmentStartup/main/resources/preview.gif>)
