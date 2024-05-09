@@ -1,7 +1,5 @@
-using System;
 using BepInEx;
 using BepInEx.Configuration;
-using BepInEx.Logging;
 using CTNOriginals.ContentWarning.DevelopmentStartup.Utilities;
 
 namespace CTNOriginals.ContentWarning.DevelopmentStartup;

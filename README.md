@@ -10,5 +10,9 @@ For suggestions or issues, feel free to open an issue on the [GitHub repository]
 2. Extract the zip file.
 3. Move the `BepInEx/plugins/com.ctnoriginals.cw.developmentStartup.dll` file to `BepInEx/plugins` folder.
 4. Launch the game and start wondering why it took you so long to find this tool!
+
 ### Thunderstore
 Install using the Thunderstore Mod Manager: https://thunderstore.io/c/content-warning/p/CTWOriginals/DevelopmentStartup/
+
+## Contributors
+- [StupidRepo](https://github.com/StupidRepo) - Implemented Old World Modal.
