@@ -24,11 +24,13 @@
 	<PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.2" PrivateAssets="all" />
   </ItemGroup>
   <ItemGroup>
-	<Reference Include="Assembly-CSharp"  Publicize="true"><HintPath>..\libs\Assembly-CSharp.dll</HintPath></Reference>
-	<Reference Include="PhotonUnityNetworking"><HintPath>..\libs\PhotonUnityNetworking.dll</HintPath></Reference>
+	<Reference Include="$(ManagedDirectory)Assembly-CSharp*.dll"  Publicize="true"/>
+	<Reference Include="$(ManagedDirectory)Photon*.dll"/>
+	<Reference Include="$(ManagedDirectory)Zorro*.dll"/>
+    <Reference Include="$(ManagedDirectory)S*.dll"/>
   </ItemGroup>
 	<ItemGroup> <!-- Reference the MMHOOK dlls -->
-		<Reference Include="C:\Users\CTN\Desktop\CW Dev\BepInEx\plugins\MMHOOK\Managed\MMHOOK_Assembly-CSharp.dll" />
+		<Reference Include="$(PluginsDirectory)MMHOOK\Managed\MMHOOK_Assembly-CSharp.dll" />
 	</ItemGroup>
   <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
