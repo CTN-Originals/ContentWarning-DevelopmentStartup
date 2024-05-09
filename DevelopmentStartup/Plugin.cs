@@ -3,13 +3,13 @@ using BepInEx.Logging;
 
 namespace CTNOriginals.ContentWarning.DevelopmentStartup;
 
-[BepInPlugin("com.ctnoriginals.cw.developmentstartup", "DevelopmentStartup", "1.0.0")]
+[BepInPlugin("com.ctnoriginals.cw.developmentstartup", "DevelopmentStartup", "1.1.0")]
 public class Plugin : BaseUnityPlugin {
 	public static ManualLogSource ManualLog;
 
 	public static string PluginGUID = "com.ctnoriginals.cw.developmentstartup";
 	public static string PluginName = "DevelopmentStartup";
-	public static string PluginVersion = "1.0.0";
+	public static string PluginVersion = "1.1.0";
 
 	public static bool DebugMode = false;
 	public static bool OutputDebugLogs = false;
