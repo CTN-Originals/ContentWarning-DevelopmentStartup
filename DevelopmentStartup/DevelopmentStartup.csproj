@@ -27,7 +27,7 @@
 	<Reference Include="$(ManagedDirectory)Assembly-CSharp*.dll"  Publicize="true"/>
 	<Reference Include="$(ManagedDirectory)Photon*.dll"/>
 	<Reference Include="$(ManagedDirectory)Zorro*.dll"/>
-    <Reference Include="$(ManagedDirectory)S*.dll"/>
+    <Reference Include="$(ManagedDirectory)Sirenix.Serialization.dll"/>
   </ItemGroup>
 	<ItemGroup> <!-- Reference the MMHOOK dlls -->
 		<Reference Include="$(PluginsDirectory)MMHOOK\Managed\MMHOOK_Assembly-CSharp.dll" />
