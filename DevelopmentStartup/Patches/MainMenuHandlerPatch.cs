@@ -73,6 +73,6 @@ public class MainMenuHandlerPatch {
 			new ModalOption("No\nDon't Show Again", () => Config.OldWorldModal.Value = false)
 		];
 
-		Modal.Show("Teleport to Old World", "Would you like to teleport to the old world? Doing this will give you a camera.", options);
+		Modal.Show("Teleport to Old World", "Would you like to teleport to the old world? You will receive a camera, providing you don't already have one.", options);
 	}
 }
